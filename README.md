@@ -33,7 +33,7 @@ The purpose of this election audit analysis is to produce a summary of the winni
 
 
 ## Election Audit Summary
-- The code used to retreive this data and 
+- The code used to retreive this data and provide a detailed snapshot of election results is interchangeable for any election. As long as the elction data is formated with columns for Ballot ID, County, and Candidate, the code will pull the same candidate and county vote data for any election. More specifically, for loops are used to iterate over these columns and print the names within those cells all while counting the votes for those specific candidates and counties.
 
 
 
